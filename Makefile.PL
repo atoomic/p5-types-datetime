@@ -20,7 +20,8 @@ my %WriteMakefileArgs = (
     "DateTime::Duration" => 0,
     "DateTime::Locale" => 0,
     "DateTime::TimeZone" => 0,
-    "Type::Library" => 0
+    "Type::Library" => 0,
+    "XString" => 0
   },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
@@ -44,7 +45,8 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "Test::Modern" => 0,
   "Test::More" => 0,
-  "Type::Library" => 0
+  "Type::Library" => 0,
+  "XString" => 0
 );
 
 
